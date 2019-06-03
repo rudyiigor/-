@@ -1,0 +1,42 @@
+.reviews{
+	display: block;
+	background-image: url('../images/bg-reviews.png');
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	@media (min-width: 480px) and (max-width: 567px) {
+		background-color: #414f7e;
+		background-image: none;
+	}
+	.you_review{
+		display: block;
+		h3{
+			width: 50%;
+			text-align: center;
+			margin: 100px auto 0 auto;
+			color: #ffffff;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0.24px;
+			line-height: 32px;
+			@media (min-width: 480px) and (max-width: 567px) {
+				width: 80%;
+				font-size: 16px;
+			}
+		}
+		span{
+			display: block;
+			margin: 0 auto 70px auto;
+			width: 55%;
+			color: #ffffff;
+			font-size: 24px;
+			font-weight: 400;
+			letter-spacing: 0.24px;
+			text-align: right;
+			@media (min-width: 480px) and (max-width: 567px) {
+				width: 85%;
+				font-size: 16px;
+			}
+		}
+	}
+}

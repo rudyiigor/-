@@ -1,0 +1,8 @@
+.banner {
+  width: 100%;
+  height: 784px;
+  display: block;
+  position: relative;
+  background-image: url("../images/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }

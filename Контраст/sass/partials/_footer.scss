@@ -1,0 +1,60 @@
+footer {
+	display:block;
+	width:100%;
+	margin:0 0 0;
+	padding:0 0 0;
+	height: 100vh;
+	overflow: hidden;
+	background-image: url('../images/bg-footer.png');
+	background-size: cover;
+	form{
+		width: 250px;
+    height: 400px;
+    margin: 200px auto 0 auto;
+		background-color: #fff;
+		display: block;
+		border-radius: 6px;
+		@media (min-width: 480px) and (max-width: 567px) {
+			margin: 100px auto 0 auto;
+		}
+		fieldset{
+			text-align: center;
+			h2{
+				text-align: center;
+				color: #010101;
+				font-family: "Brutal Type";
+				font-size: 20px;
+				font-weight: 300;
+				line-height: 24px;
+				letter-spacing: 0.5px;
+				margin: 30px 20px;
+			}
+			input{
+				height: 56px;
+				border: 2px solid #888888;
+				border-radius: 5px;
+				margin-bottom: 16px;
+				color: #b2b1b1;
+				font-size: 18px;
+				font-weight: 400;
+				letter-spacing: 0.18px;
+				padding-left: 16px;
+			}
+			input[type="submit"]{
+				background-color: #414f7e;
+				padding: 20px;
+				color: #ffffff;
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 23.68px;
+				letter-spacing: 0.22px;
+				border: none;
+			}
+		}
+	}
+	p{
+		text-align: center;
+		margin-top: 20px;
+		font-size: 22px;
+	}
+}

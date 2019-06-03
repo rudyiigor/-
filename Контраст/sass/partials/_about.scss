@@ -1,0 +1,53 @@
+.about{
+	width: 100%;
+	background-color: #e6f1fa;
+	display: inline-block;
+	.logo_about{
+		width: 39%;
+		display: inline-block;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+		}
+		img{
+			display: block;
+			margin: 90px auto;
+		}
+	}
+	.about_us{
+		padding: 46px 0;
+		display: inline-block;
+		width: 60%;
+	 	vertical-align: top;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+		}
+		span{
+			margin-bottom: 34px;
+			display: block;
+			&:last-child{
+				margin: 0;
+			}
+			p{
+				color: #000000;
+				font-size: 18px;
+				font-weight: 300;
+			}
+		}
+		ul{
+			display: block;
+			margin-bottom: 34px;
+			li{
+				list-style: disc;
+				color: #414f7e;
+				margin-left: 40px;
+				span{
+					font-weight: 400;
+					letter-spacing: 0.09px;
+					color: #000;
+					margin: 0;
+				}
+			}
+		}
+
+	}
+}

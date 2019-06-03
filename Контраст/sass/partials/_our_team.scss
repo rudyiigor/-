@@ -1,0 +1,42 @@
+.our_team{
+	background-color: #c3e0f8;
+	width: 100%;
+	overflow: hidden;
+	h2{
+		width: 100%;
+		color: #000000;
+		font-size: 30px;
+		font-weight: 300;
+		letter-spacing: 0.3px;
+		text-align: center;
+		padding: 30px;
+	}
+	.slider_team{
+		position: relative;
+		.team{
+			position: relative;
+			display: block;
+			margin-bottom: 30px;
+			img{
+				position: relative;
+				margin-left: 12%;
+			}
+			span{
+				display: block;
+				width: 257px;
+				height: 50px;
+				position: absolute;
+				bottom: 0;
+				text-align: center;
+				margin-left: 12%;
+				background-color: #fff;
+				line-height: 50px;
+				color: #000000;
+				font-size: 24px;
+				font-weight: 300;
+				letter-spacing: 0.24px;
+				opacity: 0.8;
+			}
+		}
+	}
+}

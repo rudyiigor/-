@@ -1,0 +1,142 @@
+.building{
+	display: inline-block;
+	width: 100%;
+	position:relative;
+	background-image: url("../images/bg-stripes.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	.apartments{
+		margin-top: 30px;
+		width: 48%;
+		display: inline-block;
+		float: left;
+		position: relative;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+		}
+		img{
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+		span{
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding: 21px 24px;
+			color: #414f7e;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 48px;
+			letter-spacing: 0.3px;
+			background-color: #ffffff;
+			opacity: 0.52;
+		}
+	}
+	.houses{
+		margin-top: 30px;
+		width: 48%;
+		height: 40%;
+		display: inline-block;
+		float: right;
+		position: relative;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+		}
+		img{
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+		span{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 21px 24px;
+			color: #414f7e;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 48px;
+			letter-spacing: 0.3px;
+			background-color: #ffffff;
+			opacity: 0.52;
+			@media (min-width: 480px) and (max-width: 567px) {
+				bottom: 0;
+				right: 0;
+				top: auto;
+				left: auto;
+			}
+		}
+	}
+	.offices{
+		margin-top: 30px;
+		width: 55%;
+		height: 40%;
+		display: inline-block;
+		float: left;
+		position: relative;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+		}
+		img{
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+		span{
+			position: absolute;
+			top: 0;
+		 	right: 0;
+			padding: 21px 24px;
+			color: #414f7e;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 48px;
+			letter-spacing: 0.3px;
+			background-color: #ffffff;
+			opacity: 0.52;
+			@media (min-width: 480px) and (max-width: 567px) {
+				bottom: 0;
+				right: 0;
+				top: auto;
+				left: auto;
+			}
+		}
+	}
+	.plots{
+		padding: 30px 0 30px;
+		width: 55%;
+		margin-right: -14%;
+		display: inline-block;
+		float: right;
+		position: relative;
+		@media (min-width: 480px) and (max-width: 567px) {
+			width: 100%;
+			margin-right: 0%;
+		}
+		img{
+			position: relative;
+			height: 100%;
+			width: 100%;
+		}
+		span{
+			position: absolute;
+			top: 0;
+			left: 0;
+			padding: 21px 24px;
+			color: #414f7e;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 48px;
+			letter-spacing: 0.3px;
+			background-color: #ffffff;
+			opacity: 0.52;
+			@media (min-width: 480px) and (max-width: 567px) {
+				bottom: 0;
+				right: 0;
+				top: auto;
+				left: auto;
+			}
+		}
+	}
+}
